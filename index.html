@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .back{
+      border: 4px solid rgb(226, 157, 9);
+      height: 700vh;
+    border: none;
+
+    }
+
+    .container{
+      border: 1px solid black;
+      height: 100px;
+      display: flex;
+      background-color: bisque;
+      justify-content: space-between;
+      width: 100%;
+
+    }
+
+    .box{
+     height: 100px;
+     width: 150px;
+   
+
+    }
+    .list{
+      display: flex;
+      list-style: none;
+       align-self: center;
+       gap: 20px;
+
+    }
+
+    .images{
+
+      
+      background-image: url(./images/x4jcxhce.png);
+      height: 880px;
+      max-width: 100vw;
+      display: flex;
+      flex-wrap: wrap;
+       background-repeat: no-repeat;
+       background-size: cover;
+ 
+
+    }
+
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+       
+        width: 100%;
+    }
+
+    .menu{
+      display: none;
+      
+      justify-content: center;
+      align-self: center;
+    }
+
+    .h1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-family:  Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      
+    }
+     .h3{
+      display: flex;
+      flex-wrap: wrap;
+      color: rgba(0, 0, 0, 0.66);
+      font-size: 20px;
+      width: 100%;
+      
+    }
+
+    .container3{
+
+      border: 1px solid black;
+      background-color: #ffebcd70;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border: none;
+      
+    
+    }
+
+    .table{
+      border: 1px solid black;
+      background-color: rgba(255, 235, 205, 0.438);
+      display: flex;
+      flex-wrap: wrap;
+      border: none;
+     padding: 20px;
+      
+      justify-content: center;
+
+    }
+
+    .box2{
+      border: 1px solid black;
+      width: 250px;
+      height: 200px;
+       border-radius: 10px;
+       font-size: 25px;
+       display: flex;
+       justify-content: center;
+       align-self: center;
+     
+    
+        background-size: cover;
+       background-image: url(./images/blackcoffee-benefits-featured-image-mews-696x476.jpg);
+       
+    }
+
+        .box3{
+      border: 1px solid black;
+      width: 250px;
+      height: 200px;
+       border-radius: 10px;
+       font-size: 25px;
+       display: flex;
+       justify-content: center;
+       align-items: center; 
+      align-self: center;
+        background-size: cover;
+       background-image: url(./images/stock-of-mix-a-cup-coffee-latte-more-motive-top-view-foodgraphy-generative-ai-photo.jpg);
+       
+    }
+           .box4{
+      border: 1px solid black;
+      width: 250px;
+      height: 200px;
+       border-radius: 10px;
+       font-size: 25px;
+       display: flex;
+    align-self: center;
+       justify-content: center;
+       align-items: center; 
+    
+        background-size: cover;
+       background-image: url(./images/OIP.webp);
+       
+    }
+
+    .coffeeimg{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:15px;
+    }
+
+    .font3{
+      display: flex;
+       justify-content: center;
+       align-self: center; 
+       background-color: rgba(0, 0, 0, 0.416);
+       color: white;
+       width: 100%;
+       font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+        .font4{
+        display: flex;
+       justify-content: center;
+       align-self: center; 
+       background-color: rgba(0, 0, 0, 0.416);
+       color: white;
+       width: 100%;
+       font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .container4{
+     border: 1px solid black;
+   background-color: rgba(255, 235, 205, 0.438);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border: none;
+    }
+
+
+    .fres{
+        
+        width: 100%;
+     
+        margin-top: 340px;
+        font-size: 30px;
+        margin-left: 20px;
+        color: white;
+
+
+    }
+
+    .coffee{
+        color: rgb(228, 123, 2);
+        font-size: 80px;
+           margin-left: 20px;
+          
+          
+        
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: rgba(255, 235, 205, 0.438);
+        padding: 30px;
+        gap: 30px;
+    }
+
+
+    .boxig{
+        border: 1px solid black;
+        height: 250px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.226);
+         border-radius: 20px;
+       
+    }
+
+    .shop{
+        height: 40px;
+        width: 120px;
+        font-size: 15px;
+        border-radius: 20px;
+        color: white;
+      
+     
+        
+       background-color: rgba(0, 0, 0, 0.459);
+     
+    }
+
+    .shop:hover{
+       
+        background-color: rgb(255, 255, 255);
+        color: black;
+    
+    }
+
+    .like{
+      padding: 0px 0px;
+      width: 150px;
+      height: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+      border-radius: 20px;
+      font-size: 15px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .imagesx{
+      height: 130px;
+      width: 90px;
+      display: flex;
+      margin-top: 10px;
+      justify-content: center;
+      align-self:center ;
+      margin-left: 100px;
+      margin-top: 20px;
+    
+    }
+
+    span{
+      margin-left: 70px;
+      font-style: italic;
+      font-size: 25px;
+    }
+
+    .word{
+      margin-left: 20px;
+      font-size: 20px;
+      margin-top: 10px;
+      
+    }
+
+    .buy{
+      margin-left: 50px;
+      width: 120px;
+      background-color: rgba(0, 0, 0, 0.541);
+      color: white;
+      border-radius: 20px;
+    }
+
+    .buy:hover{
+      color: black;
+      background-color:rgba(146, 12, 224, 0.363);
+    }
+
+    .latter{
+      height: 400px;
+      width: 300px;
+      border: 1px solid black;
+      
+      border-radius: 15px;
+    }
+
+    .women{
+      height: 150px;
+      width: 250px;
+      margin: 20px 20px;
+      border: 1px solid black;
+      border: none;
+
+      img{
+        border-radius: 20px;
+      }
+
+    }
+
+    .c1{
+      margin-left: 10px;
+    }
+
+    .buttoon{
+
+      border-radius: 20px;
+       background-color: rgba(255, 235, 205, 0.438);
+      
+    }
+
+
+
+    /* footer */
+
+   footer{
+   
+    
+    background-color: rgba(0, 0, 0, 0.377);
+    
+   }
+
+    .footerbox{
+     
+      border: 1px solid yellow;
+      width: 100%;
+      border: none;
+     
+     margin-top: 10px;
+      
+      
+     
+   
+    }
+
+    .footer1{
+      margin-left: 40px;
+      font-size: 40PX;
+      color: rgb(255, 255, 255);
+    }
+
+       h4{
+      margin-left: 40px;
+      color: rgba(255, 255, 255, 0.644);
+      font-size: 1.9rem;
+    }
+
+    .footerlist{
+      list-style: none;
+      color: white;
+      
+  
+   
+    }
+    
+    .footerlist>li{
+      margin-top: 10px;
+      font-size: 23px;
+    }
+
+    .footer2{
+
+      display: flex;
+    }
+
+
+    .last{
+      background-color: rgba(255, 235, 205, 0.479);
+      display: flex;
+    
+      justify-content: center;
+      
+     
+    }
+
+
+    .lastlist{
+      list-style: none;
+      display: flex;
+      font-size: 20px;
+      flex-wrap: wrap;
+      
+      gap: 30px;
+    }
+
+    
+    
+    
+
+   
+
+    @media (max-width : 600px){
+      .list{
+        display: none;
+      }
+      .menu{
+        display: block;
+      }
+
+
+      }
+
+
+      @media (max-width : 800px){
+
+        .footer2{
+          display: grid;
+        }
+        
+          
+        }
+        
+      
+
+      
+    
+  </style>
+</head>
+<body>
+
+  <div class="back">
+    <div class="container">
+      <div class="box"><img height="100%" width="100%" src="./images/pngtree-coffee-logo-design-png-image_5304535-removebg-preview.png" alt=""></div>
+     
+        <ul class="list">
+          <li>Home</li>
+          <li>Menu</li>
+          <li>Blog</li>
+          <li>Media</li>
+          <li>Contact</li>
+          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+        </ul>
+
+        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+
+
+       
+      
+    </div>
+
+     <div class="container2 images"> 
+
+      
+        <div class="fres"><h1>FRESHLY ROASTED</h1></div>
+        <div class="coffee"> COFFEE 
+            
+            <div class="button"> <button class="shop">Shop Now</button></div>
+        </div>
+        
+       
+    
+      </div>
+
+
+      <div class="container3">
+        <div class="h1"><h1> TOP CATEGORIES 
+          <div class="h3"><p>Explore the recent Most  Bought Drinks This Week</p></div>
+        </h1>
+         
+        </div>
+
+            </div>
+
+
+            <div class="table ">
+                <div class="coffeeimg">
+                     <div class="box2"><div class="font3">Coffee Mocha</div></div>
+              <div class="box3"><div class="font3">Expresso Americano</div></div>
+              <div class="box4"><div class="font3">Cappuccino</div></div> 
+                </div>
+             
+            
+            </div>
+
+
+
+            
+      <div class="container4">
+        <div class="h1"><h1> TOP MILK SHAKES 
+          <div class="h3"><p>Explore the recent Most  Bought Drinks This Week</p></div>
+        </h1>
+         
+        </div>
+
+            </div>
+
+            <section>
+                <div class="boxig "><button class="like"><i class="fa-solid fa-thumbs-up"></i> 30 Likes</button>
+                <img class="imagesx" height="100%" width="100%" src="./images/R-removebg-preview.png" alt=""><span>Mocha Shakes</span>
+              <div class="word"><b>$ 20.00</b><button class="buy">Buy Now</button></div></div>
+
+              <div class="boxig "><button class="like"><i class="fa-solid fa-thumbs-up"></i> 30 Likes</button>
+                <img class="imagesx" height="100%" width="100%" src="./images/Earl-Grey-Lavender-Shake-removebg-preview.png" alt=""><span>Lavender Shakes</span>
+              <div class="word"><b>$ 20.00</b><button class="buy">Buy Now</button></div></div>
+
+              <div class="boxig "><button class="like"><i class="fa-solid fa-thumbs-up"></i> 30 Likes</button>
+                <img class="imagesx" height="100%" width="100%" src="./images/caramel-milkshake-image-removebg-preview.png" alt=""><span>Caramel Shakes</span>
+              <div class="word"><b>$ 20.00</b><button class="buy">Buy Now</button></div></div>
+
+                <div class="boxig "><button class="like"><i class="fa-solid fa-thumbs-up"></i> 30 Likes</button>
+                <img class="imagesx" height="100%" width="100%" src="./images/img_60395284f1051-removebg-preview.png" alt=""><span> Chocalate Shakes</span>
+              <div class="word"><b>$ 20.00</b><button class="buy">Buy Now</button></div></div>
+
+              <div class="boxig "><button class="like"><i class="fa-solid fa-thumbs-up"></i> 30 Likes</button>
+                <img class="imagesx" height="100%" width="100%" src="./images/Strawberry-Oreo-Milkshake-Featured-Image-removebg-preview.png" alt=""><span> Strawbary Shakes</span>
+              <div class="word"><b>$ 20.00</b><button class="buy">Buy Now</button></div></div>
+
+              <div class="boxig "><button class="like"><i class="fa-solid fa-thumbs-up"></i> 30 Likes</button>
+                <img class="imagesx" height="100%" width="100%" src="./images/Homemade-Grimace-Shake-with-Whipped-Cream-Sprinkled-Candies-and-Fresh-Raspberries-removebg-preview.png" alt=""><span> Humemada Shakes</span>
+              <div class="word"><b>$ 20.00</b><button class="buy">Buy Now</button></div></div>
+
+                <div class="boxig "><button class="like"><i class="fa-solid fa-thumbs-up"></i> 30 Likes</button>
+                <img class="imagesx" height="100%" width="100%" src="./images/OIP__1_-removebg-preview.png" alt=""><span>Blubery Shakes</span>
+              <div class="word"><b>$ 20.00</b><button class="buy">Buy Now</button></div></div>
+            
+            </section>
+
+
+
+
+                
+      <div class="container4">
+        <div class="h1"><h1> LATEST BLOGS 
+          <div class="h3"><p>Explore the recent Most  Bought Drinks This Week</p></div>
+        </h1>
+         
+        </div>
+
+     </div>
+     
+     <section>
+       <div class="latter">
+         <div class="women"><img height="100%" width="100%" src="./images/women with coffee.avif" alt=""><span class="c1">coffee connoisseur</span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis quam soluta dolorum sint id iusto assumenda animi a, molestiae quaerat voluptatem dignissimos quia!</p>
+         <button class="buttoon">View More </button></div>
+       </div>
+          <div class="latter">
+         <div class="women"><img height="100%" width="100%" src="https://cdn6.dissolve.com/p/D2115_271_238/D2115_271_238_1200.jpg" alt=""><span class="c1">coffee connoisseur</span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis quam soluta dolorum sint id iusto assumenda animi a, molestiae quaerat voluptatem dignissimos quia!</p>
+         <button class="buttoon">View More </button></div>
+       </div>
+          <div class="latter">
+         <div class="women"><img height="100%" width="100%" src="https://thumbs.dreamstime.com/z/woman-pouring-coffee-cups-her-family-having-breakfast-family-having-breakfast-103524679.jpg" alt=""><span class="c1">coffee connoisseur</span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis quam soluta dolorum sint id iusto assumenda animi a, molestiae quaerat voluptatem dignissimos quia!</p>
+         <button class="buttoon">View More </button></div>
+       </div>
+     </section>
+
+
+
+
+
+     <footer>
+       
+        <div class="footer2">
+            <div class="footerbox">
+           <h1 class="footer1">Product</h1>
+           <h4>shows</h4>
+         </div>
+
+
+         <div class="footerbox">
+           <h1 class="footer1"> Category</h1>
+           <ul class="footerlist">
+             <li>Men</li>
+             <li>New in</li>
+             <li>Weekaly pick</li>
+             
+           </ul>
+         </div>
+
+
+         <div class="footerbox">
+             <h1 class="footer1">Company info</h1>
+             <ul class="footerlist">
+             <li>About us</li>
+             <li>contact us </li>
+             <li>Payment option</li>
+               <li>Track order</li>
+             <li>Support</li>
+             <li>Voucher</li>
+             <li>size chaits</li>
+           
+         </ul>
+       </div>
+
+
+       <div class="footerbox">
+           <h1 class="footer1">Follow us</h1>
+           <ul class="footerlist">
+             <li><i class="fa-brands fa-instagram" style="color: #ffebcd70;" ></i></li>
+             <li><i class="fa-brands fa-facebook" style="color: #ffebcd70;"></i></li>
+             <li><i class="fa-brands fa-youtube"  style="color: #ffebcd70;"></i></li>
+           </ul>
+       </div> 
+
+        </div>
+
+
+        <div class="last">
+          <ul class="lastlist">
+          <li>Data setting</li>
+          <li>Cookel setting</li>
+          <li>Privacy policy</li>
+          <li>Tearm & Condition</li>
+          <li>Impesvint</li>
+        </ul>
+            </div>
+       
+     
+   </footer>
+
+
+    
+
+
+  
+</body>
+</html>
